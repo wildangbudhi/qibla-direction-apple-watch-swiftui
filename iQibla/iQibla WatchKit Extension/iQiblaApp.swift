@@ -9,13 +9,11 @@ import SwiftUI
 
 @main
 struct iQiblaApp: App {
-    @SceneBuilder var body: some Scene {
+    var body: some Scene {
         WindowGroup {
             NavigationView {
                 ContentView()
             }
         }
-
-        WKNotificationScene(controller: NotificationController.self, category: "myCategory")
     }
 }

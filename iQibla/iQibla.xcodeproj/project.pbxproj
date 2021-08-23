@@ -7,70 +7,68 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4509AFAC26D36CC50092B9D6 /* iQibla WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 4509AFAB26D36CC50092B9D6 /* iQibla WatchKit App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		4509AFB126D36CC60092B9D6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4509AFB026D36CC60092B9D6 /* Assets.xcassets */; };
-		4509AFB826D36CC60092B9D6 /* iQibla WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 4509AFB726D36CC60092B9D6 /* iQibla WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		4509AFBD26D36CC60092B9D6 /* iQiblaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4509AFBC26D36CC60092B9D6 /* iQiblaApp.swift */; };
-		4509AFBF26D36CC60092B9D6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4509AFBE26D36CC60092B9D6 /* ContentView.swift */; };
-		4509AFC126D36CC60092B9D6 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4509AFC026D36CC60092B9D6 /* NotificationController.swift */; };
-		4509AFC326D36CC60092B9D6 /* NotificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4509AFC226D36CC60092B9D6 /* NotificationView.swift */; };
-		4509AFC526D36CC60092B9D6 /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4509AFC426D36CC60092B9D6 /* ComplicationController.swift */; };
-		4509AFC726D36CC70092B9D6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4509AFC626D36CC70092B9D6 /* Assets.xcassets */; };
-		4509AFCA26D36CC70092B9D6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4509AFC926D36CC70092B9D6 /* Preview Assets.xcassets */; };
-		4509AFD626D36CC70092B9D6 /* iQiblaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4509AFD526D36CC70092B9D6 /* iQiblaTests.swift */; };
-		4509AFE126D36CC70092B9D6 /* iQiblaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4509AFE026D36CC70092B9D6 /* iQiblaUITests.swift */; };
+		4567A7D026D36FF200F52152 /* iQibla WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 4567A7CF26D36FF200F52152 /* iQibla WatchKit App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		4567A7D526D36FF300F52152 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4567A7D426D36FF300F52152 /* Assets.xcassets */; };
+		4567A7DC26D36FF300F52152 /* iQibla WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 4567A7DB26D36FF300F52152 /* iQibla WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		4567A7E126D36FF300F52152 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4567A7E026D36FF300F52152 /* ContentView.swift */; };
+		4567A7E326D36FF300F52152 /* iQiblaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4567A7E226D36FF300F52152 /* iQiblaApp.swift */; };
+		4567A7E526D36FF300F52152 /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4567A7E426D36FF300F52152 /* ComplicationController.swift */; };
+		4567A7E726D36FF400F52152 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4567A7E626D36FF400F52152 /* Assets.xcassets */; };
+		4567A7EA26D36FF400F52152 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4567A7E926D36FF400F52152 /* Preview Assets.xcassets */; };
+		4567A7F526D36FF400F52152 /* iQiblaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4567A7F426D36FF400F52152 /* iQiblaTests.swift */; };
+		4567A80026D36FF400F52152 /* iQiblaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4567A7FF26D36FF400F52152 /* iQiblaUITests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		4509AFAD26D36CC50092B9D6 /* PBXContainerItemProxy */ = {
+		4567A7D126D36FF200F52152 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 4509AFA126D36CC50092B9D6 /* Project object */;
+			containerPortal = 4567A7C526D36FF200F52152 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 4509AFAA26D36CC50092B9D6;
+			remoteGlobalIDString = 4567A7CE26D36FF200F52152;
 			remoteInfo = "iQibla WatchKit App";
 		};
-		4509AFB926D36CC60092B9D6 /* PBXContainerItemProxy */ = {
+		4567A7DD26D36FF300F52152 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 4509AFA126D36CC50092B9D6 /* Project object */;
+			containerPortal = 4567A7C526D36FF200F52152 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 4509AFB626D36CC60092B9D6;
+			remoteGlobalIDString = 4567A7DA26D36FF300F52152;
 			remoteInfo = "iQibla WatchKit Extension";
 		};
-		4509AFD226D36CC70092B9D6 /* PBXContainerItemProxy */ = {
+		4567A7F126D36FF400F52152 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 4509AFA126D36CC50092B9D6 /* Project object */;
+			containerPortal = 4567A7C526D36FF200F52152 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 4509AFB626D36CC60092B9D6;
+			remoteGlobalIDString = 4567A7DA26D36FF300F52152;
 			remoteInfo = "iQibla WatchKit Extension";
 		};
-		4509AFDD26D36CC70092B9D6 /* PBXContainerItemProxy */ = {
+		4567A7FC26D36FF400F52152 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 4509AFA126D36CC50092B9D6 /* Project object */;
+			containerPortal = 4567A7C526D36FF200F52152 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 4509AFAA26D36CC50092B9D6;
+			remoteGlobalIDString = 4567A7CE26D36FF200F52152;
 			remoteInfo = "iQibla WatchKit App";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		4509AFE826D36CC70092B9D6 /* Embed App Extensions */ = {
+		4567A80726D36FF400F52152 /* Embed App Extensions */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 13;
 			files = (
-				4509AFB826D36CC60092B9D6 /* iQibla WatchKit Extension.appex in Embed App Extensions */,
+				4567A7DC26D36FF300F52152 /* iQibla WatchKit Extension.appex in Embed App Extensions */,
 			);
 			name = "Embed App Extensions";
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4509AFEC26D36CC70092B9D6 /* Embed Watch Content */ = {
+		4567A80B26D36FF400F52152 /* Embed Watch Content */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
 			dstSubfolderSpec = 16;
 			files = (
-				4509AFAC26D36CC50092B9D6 /* iQibla WatchKit App.app in Embed Watch Content */,
+				4567A7D026D36FF200F52152 /* iQibla WatchKit App.app in Embed Watch Content */,
 			);
 			name = "Embed Watch Content";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -78,44 +76,41 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		4509AFA726D36CC50092B9D6 /* iQibla.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iQibla.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		4509AFAB26D36CC50092B9D6 /* iQibla WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iQibla WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		4509AFB026D36CC60092B9D6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		4509AFB226D36CC60092B9D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4509AFB726D36CC60092B9D6 /* iQibla WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "iQibla WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
-		4509AFBC26D36CC60092B9D6 /* iQiblaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iQiblaApp.swift; sourceTree = "<group>"; };
-		4509AFBE26D36CC60092B9D6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		4509AFC026D36CC60092B9D6 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
-		4509AFC226D36CC60092B9D6 /* NotificationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationView.swift; sourceTree = "<group>"; };
-		4509AFC426D36CC60092B9D6 /* ComplicationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationController.swift; sourceTree = "<group>"; };
-		4509AFC626D36CC70092B9D6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		4509AFC926D36CC70092B9D6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		4509AFCB26D36CC70092B9D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4509AFCC26D36CC70092B9D6 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
-		4509AFD126D36CC70092B9D6 /* iQiblaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iQiblaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		4509AFD526D36CC70092B9D6 /* iQiblaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iQiblaTests.swift; sourceTree = "<group>"; };
-		4509AFD726D36CC70092B9D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4509AFDC26D36CC70092B9D6 /* iQiblaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iQiblaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		4509AFE026D36CC70092B9D6 /* iQiblaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iQiblaUITests.swift; sourceTree = "<group>"; };
-		4509AFE226D36CC70092B9D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4567A7CB26D36FF200F52152 /* iQibla.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iQibla.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4567A7CF26D36FF200F52152 /* iQibla WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iQibla WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4567A7D426D36FF300F52152 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4567A7D626D36FF300F52152 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4567A7DB26D36FF300F52152 /* iQibla WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "iQibla WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4567A7E026D36FF300F52152 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		4567A7E226D36FF300F52152 /* iQiblaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iQiblaApp.swift; sourceTree = "<group>"; };
+		4567A7E426D36FF300F52152 /* ComplicationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationController.swift; sourceTree = "<group>"; };
+		4567A7E626D36FF400F52152 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4567A7E926D36FF400F52152 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		4567A7EB26D36FF400F52152 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4567A7F026D36FF400F52152 /* iQiblaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iQiblaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4567A7F426D36FF400F52152 /* iQiblaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iQiblaTests.swift; sourceTree = "<group>"; };
+		4567A7F626D36FF400F52152 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4567A7FB26D36FF400F52152 /* iQiblaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iQiblaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4567A7FF26D36FF400F52152 /* iQiblaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iQiblaUITests.swift; sourceTree = "<group>"; };
+		4567A80126D36FF400F52152 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		4509AFB426D36CC60092B9D6 /* Frameworks */ = {
+		4567A7D826D36FF300F52152 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4509AFCE26D36CC70092B9D6 /* Frameworks */ = {
+		4567A7ED26D36FF400F52152 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4509AFD926D36CC70092B9D6 /* Frameworks */ = {
+		4567A7F826D36FF400F52152 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -125,76 +120,73 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		4509AFA026D36CC50092B9D6 = {
+		4567A7C426D36FF200F52152 = {
 			isa = PBXGroup;
 			children = (
-				4509AFAF26D36CC50092B9D6 /* iQibla WatchKit App */,
-				4509AFBB26D36CC60092B9D6 /* iQibla WatchKit Extension */,
-				4509AFD426D36CC70092B9D6 /* iQiblaTests */,
-				4509AFDF26D36CC70092B9D6 /* iQiblaUITests */,
-				4509AFA826D36CC50092B9D6 /* Products */,
+				4567A7D326D36FF200F52152 /* iQibla WatchKit App */,
+				4567A7DF26D36FF300F52152 /* iQibla WatchKit Extension */,
+				4567A7F326D36FF400F52152 /* iQiblaTests */,
+				4567A7FE26D36FF400F52152 /* iQiblaUITests */,
+				4567A7CC26D36FF200F52152 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		4509AFA826D36CC50092B9D6 /* Products */ = {
+		4567A7CC26D36FF200F52152 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				4509AFA726D36CC50092B9D6 /* iQibla.app */,
-				4509AFAB26D36CC50092B9D6 /* iQibla WatchKit App.app */,
-				4509AFB726D36CC60092B9D6 /* iQibla WatchKit Extension.appex */,
-				4509AFD126D36CC70092B9D6 /* iQiblaTests.xctest */,
-				4509AFDC26D36CC70092B9D6 /* iQiblaUITests.xctest */,
+				4567A7CB26D36FF200F52152 /* iQibla.app */,
+				4567A7CF26D36FF200F52152 /* iQibla WatchKit App.app */,
+				4567A7DB26D36FF300F52152 /* iQibla WatchKit Extension.appex */,
+				4567A7F026D36FF400F52152 /* iQiblaTests.xctest */,
+				4567A7FB26D36FF400F52152 /* iQiblaUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		4509AFAF26D36CC50092B9D6 /* iQibla WatchKit App */ = {
+		4567A7D326D36FF200F52152 /* iQibla WatchKit App */ = {
 			isa = PBXGroup;
 			children = (
-				4509AFB026D36CC60092B9D6 /* Assets.xcassets */,
-				4509AFB226D36CC60092B9D6 /* Info.plist */,
+				4567A7D426D36FF300F52152 /* Assets.xcassets */,
+				4567A7D626D36FF300F52152 /* Info.plist */,
 			);
 			path = "iQibla WatchKit App";
 			sourceTree = "<group>";
 		};
-		4509AFBB26D36CC60092B9D6 /* iQibla WatchKit Extension */ = {
+		4567A7DF26D36FF300F52152 /* iQibla WatchKit Extension */ = {
 			isa = PBXGroup;
 			children = (
-				4509AFBC26D36CC60092B9D6 /* iQiblaApp.swift */,
-				4509AFBE26D36CC60092B9D6 /* ContentView.swift */,
-				4509AFC026D36CC60092B9D6 /* NotificationController.swift */,
-				4509AFC226D36CC60092B9D6 /* NotificationView.swift */,
-				4509AFC426D36CC60092B9D6 /* ComplicationController.swift */,
-				4509AFC626D36CC70092B9D6 /* Assets.xcassets */,
-				4509AFCB26D36CC70092B9D6 /* Info.plist */,
-				4509AFCC26D36CC70092B9D6 /* PushNotificationPayload.apns */,
-				4509AFC826D36CC70092B9D6 /* Preview Content */,
+				4567A7E026D36FF300F52152 /* ContentView.swift */,
+				4567A7E226D36FF300F52152 /* iQiblaApp.swift */,
+				4567A7E426D36FF300F52152 /* ComplicationController.swift */,
+				4567A7E626D36FF400F52152 /* Assets.xcassets */,
+				4567A7EB26D36FF400F52152 /* Info.plist */,
+				4567A7E826D36FF400F52152 /* Preview Content */,
 			);
 			path = "iQibla WatchKit Extension";
 			sourceTree = "<group>";
 		};
-		4509AFC826D36CC70092B9D6 /* Preview Content */ = {
+		4567A7E826D36FF400F52152 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				4509AFC926D36CC70092B9D6 /* Preview Assets.xcassets */,
+				4567A7E926D36FF400F52152 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		4509AFD426D36CC70092B9D6 /* iQiblaTests */ = {
+		4567A7F326D36FF400F52152 /* iQiblaTests */ = {
 			isa = PBXGroup;
 			children = (
-				4509AFD526D36CC70092B9D6 /* iQiblaTests.swift */,
-				4509AFD726D36CC70092B9D6 /* Info.plist */,
+				4567A7F426D36FF400F52152 /* iQiblaTests.swift */,
+				4567A7F626D36FF400F52152 /* Info.plist */,
 			);
 			path = iQiblaTests;
 			sourceTree = "<group>";
 		};
-		4509AFDF26D36CC70092B9D6 /* iQiblaUITests */ = {
+		4567A7FE26D36FF400F52152 /* iQiblaUITests */ = {
 			isa = PBXGroup;
 			children = (
-				4509AFE026D36CC70092B9D6 /* iQiblaUITests.swift */,
-				4509AFE226D36CC70092B9D6 /* Info.plist */,
+				4567A7FF26D36FF400F52152 /* iQiblaUITests.swift */,
+				4567A80126D36FF400F52152 /* Info.plist */,
 			);
 			path = iQiblaUITests;
 			sourceTree = "<group>";
@@ -202,47 +194,47 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		4509AFA626D36CC50092B9D6 /* iQibla */ = {
+		4567A7CA26D36FF200F52152 /* iQibla */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4509AFED26D36CC70092B9D6 /* Build configuration list for PBXNativeTarget "iQibla" */;
+			buildConfigurationList = 4567A80C26D36FF400F52152 /* Build configuration list for PBXNativeTarget "iQibla" */;
 			buildPhases = (
-				4509AFA526D36CC50092B9D6 /* Resources */,
-				4509AFEC26D36CC70092B9D6 /* Embed Watch Content */,
+				4567A7C926D36FF200F52152 /* Resources */,
+				4567A80B26D36FF400F52152 /* Embed Watch Content */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				4509AFAE26D36CC50092B9D6 /* PBXTargetDependency */,
+				4567A7D226D36FF200F52152 /* PBXTargetDependency */,
 			);
 			name = iQibla;
 			productName = iQibla;
-			productReference = 4509AFA726D36CC50092B9D6 /* iQibla.app */;
+			productReference = 4567A7CB26D36FF200F52152 /* iQibla.app */;
 			productType = "com.apple.product-type.application.watchapp2-container";
 		};
-		4509AFAA26D36CC50092B9D6 /* iQibla WatchKit App */ = {
+		4567A7CE26D36FF200F52152 /* iQibla WatchKit App */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4509AFE926D36CC70092B9D6 /* Build configuration list for PBXNativeTarget "iQibla WatchKit App" */;
+			buildConfigurationList = 4567A80826D36FF400F52152 /* Build configuration list for PBXNativeTarget "iQibla WatchKit App" */;
 			buildPhases = (
-				4509AFA926D36CC50092B9D6 /* Resources */,
-				4509AFE826D36CC70092B9D6 /* Embed App Extensions */,
+				4567A7CD26D36FF200F52152 /* Resources */,
+				4567A80726D36FF400F52152 /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				4509AFBA26D36CC60092B9D6 /* PBXTargetDependency */,
+				4567A7DE26D36FF300F52152 /* PBXTargetDependency */,
 			);
 			name = "iQibla WatchKit App";
 			productName = "iQibla WatchKit App";
-			productReference = 4509AFAB26D36CC50092B9D6 /* iQibla WatchKit App.app */;
+			productReference = 4567A7CF26D36FF200F52152 /* iQibla WatchKit App.app */;
 			productType = "com.apple.product-type.application.watchapp2";
 		};
-		4509AFB626D36CC60092B9D6 /* iQibla WatchKit Extension */ = {
+		4567A7DA26D36FF300F52152 /* iQibla WatchKit Extension */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4509AFE526D36CC70092B9D6 /* Build configuration list for PBXNativeTarget "iQibla WatchKit Extension" */;
+			buildConfigurationList = 4567A80426D36FF400F52152 /* Build configuration list for PBXNativeTarget "iQibla WatchKit Extension" */;
 			buildPhases = (
-				4509AFB326D36CC60092B9D6 /* Sources */,
-				4509AFB426D36CC60092B9D6 /* Frameworks */,
-				4509AFB526D36CC60092B9D6 /* Resources */,
+				4567A7D726D36FF300F52152 /* Sources */,
+				4567A7D826D36FF300F52152 /* Frameworks */,
+				4567A7D926D36FF300F52152 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -250,74 +242,74 @@
 			);
 			name = "iQibla WatchKit Extension";
 			productName = "iQibla WatchKit Extension";
-			productReference = 4509AFB726D36CC60092B9D6 /* iQibla WatchKit Extension.appex */;
+			productReference = 4567A7DB26D36FF300F52152 /* iQibla WatchKit Extension.appex */;
 			productType = "com.apple.product-type.watchkit2-extension";
 		};
-		4509AFD026D36CC70092B9D6 /* iQiblaTests */ = {
+		4567A7EF26D36FF400F52152 /* iQiblaTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4509AFF026D36CC70092B9D6 /* Build configuration list for PBXNativeTarget "iQiblaTests" */;
+			buildConfigurationList = 4567A80F26D36FF400F52152 /* Build configuration list for PBXNativeTarget "iQiblaTests" */;
 			buildPhases = (
-				4509AFCD26D36CC70092B9D6 /* Sources */,
-				4509AFCE26D36CC70092B9D6 /* Frameworks */,
-				4509AFCF26D36CC70092B9D6 /* Resources */,
+				4567A7EC26D36FF400F52152 /* Sources */,
+				4567A7ED26D36FF400F52152 /* Frameworks */,
+				4567A7EE26D36FF400F52152 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				4509AFD326D36CC70092B9D6 /* PBXTargetDependency */,
+				4567A7F226D36FF400F52152 /* PBXTargetDependency */,
 			);
 			name = iQiblaTests;
 			productName = iQiblaTests;
-			productReference = 4509AFD126D36CC70092B9D6 /* iQiblaTests.xctest */;
+			productReference = 4567A7F026D36FF400F52152 /* iQiblaTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		4509AFDB26D36CC70092B9D6 /* iQiblaUITests */ = {
+		4567A7FA26D36FF400F52152 /* iQiblaUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4509AFF326D36CC70092B9D6 /* Build configuration list for PBXNativeTarget "iQiblaUITests" */;
+			buildConfigurationList = 4567A81226D36FF400F52152 /* Build configuration list for PBXNativeTarget "iQiblaUITests" */;
 			buildPhases = (
-				4509AFD826D36CC70092B9D6 /* Sources */,
-				4509AFD926D36CC70092B9D6 /* Frameworks */,
-				4509AFDA26D36CC70092B9D6 /* Resources */,
+				4567A7F726D36FF400F52152 /* Sources */,
+				4567A7F826D36FF400F52152 /* Frameworks */,
+				4567A7F926D36FF400F52152 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				4509AFDE26D36CC70092B9D6 /* PBXTargetDependency */,
+				4567A7FD26D36FF400F52152 /* PBXTargetDependency */,
 			);
 			name = iQiblaUITests;
 			productName = iQiblaUITests;
-			productReference = 4509AFDC26D36CC70092B9D6 /* iQiblaUITests.xctest */;
+			productReference = 4567A7FB26D36FF400F52152 /* iQiblaUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		4509AFA126D36CC50092B9D6 /* Project object */ = {
+		4567A7C526D36FF200F52152 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1250;
 				LastUpgradeCheck = 1250;
 				TargetAttributes = {
-					4509AFA626D36CC50092B9D6 = {
+					4567A7CA26D36FF200F52152 = {
 						CreatedOnToolsVersion = 12.5.1;
 					};
-					4509AFAA26D36CC50092B9D6 = {
+					4567A7CE26D36FF200F52152 = {
 						CreatedOnToolsVersion = 12.5.1;
 					};
-					4509AFB626D36CC60092B9D6 = {
+					4567A7DA26D36FF300F52152 = {
 						CreatedOnToolsVersion = 12.5.1;
 					};
-					4509AFD026D36CC70092B9D6 = {
+					4567A7EF26D36FF400F52152 = {
 						CreatedOnToolsVersion = 12.5.1;
-						TestTargetID = 4509AFB626D36CC60092B9D6;
+						TestTargetID = 4567A7DA26D36FF300F52152;
 					};
-					4509AFDB26D36CC70092B9D6 = {
+					4567A7FA26D36FF400F52152 = {
 						CreatedOnToolsVersion = 12.5.1;
-						TestTargetID = 4509AFAA26D36CC50092B9D6;
+						TestTargetID = 4567A7CE26D36FF200F52152;
 					};
 				};
 			};
-			buildConfigurationList = 4509AFA426D36CC50092B9D6 /* Build configuration list for PBXProject "iQibla" */;
+			buildConfigurationList = 4567A7C826D36FF200F52152 /* Build configuration list for PBXProject "iQibla" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -325,53 +317,53 @@
 				en,
 				Base,
 			);
-			mainGroup = 4509AFA026D36CC50092B9D6;
-			productRefGroup = 4509AFA826D36CC50092B9D6 /* Products */;
+			mainGroup = 4567A7C426D36FF200F52152;
+			productRefGroup = 4567A7CC26D36FF200F52152 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				4509AFA626D36CC50092B9D6 /* iQibla */,
-				4509AFAA26D36CC50092B9D6 /* iQibla WatchKit App */,
-				4509AFB626D36CC60092B9D6 /* iQibla WatchKit Extension */,
-				4509AFD026D36CC70092B9D6 /* iQiblaTests */,
-				4509AFDB26D36CC70092B9D6 /* iQiblaUITests */,
+				4567A7CA26D36FF200F52152 /* iQibla */,
+				4567A7CE26D36FF200F52152 /* iQibla WatchKit App */,
+				4567A7DA26D36FF300F52152 /* iQibla WatchKit Extension */,
+				4567A7EF26D36FF400F52152 /* iQiblaTests */,
+				4567A7FA26D36FF400F52152 /* iQiblaUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		4509AFA526D36CC50092B9D6 /* Resources */ = {
+		4567A7C926D36FF200F52152 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4509AFA926D36CC50092B9D6 /* Resources */ = {
+		4567A7CD26D36FF200F52152 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4509AFB126D36CC60092B9D6 /* Assets.xcassets in Resources */,
+				4567A7D526D36FF300F52152 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4509AFB526D36CC60092B9D6 /* Resources */ = {
+		4567A7D926D36FF300F52152 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4509AFCA26D36CC70092B9D6 /* Preview Assets.xcassets in Resources */,
-				4509AFC726D36CC70092B9D6 /* Assets.xcassets in Resources */,
+				4567A7EA26D36FF400F52152 /* Preview Assets.xcassets in Resources */,
+				4567A7E726D36FF400F52152 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4509AFCF26D36CC70092B9D6 /* Resources */ = {
+		4567A7EE26D36FF400F52152 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4509AFDA26D36CC70092B9D6 /* Resources */ = {
+		4567A7F926D36FF400F52152 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -381,61 +373,59 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		4509AFB326D36CC60092B9D6 /* Sources */ = {
+		4567A7D726D36FF300F52152 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4509AFC126D36CC60092B9D6 /* NotificationController.swift in Sources */,
-				4509AFBF26D36CC60092B9D6 /* ContentView.swift in Sources */,
-				4509AFC526D36CC60092B9D6 /* ComplicationController.swift in Sources */,
-				4509AFBD26D36CC60092B9D6 /* iQiblaApp.swift in Sources */,
-				4509AFC326D36CC60092B9D6 /* NotificationView.swift in Sources */,
+				4567A7E126D36FF300F52152 /* ContentView.swift in Sources */,
+				4567A7E326D36FF300F52152 /* iQiblaApp.swift in Sources */,
+				4567A7E526D36FF300F52152 /* ComplicationController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4509AFCD26D36CC70092B9D6 /* Sources */ = {
+		4567A7EC26D36FF400F52152 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4509AFD626D36CC70092B9D6 /* iQiblaTests.swift in Sources */,
+				4567A7F526D36FF400F52152 /* iQiblaTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4509AFD826D36CC70092B9D6 /* Sources */ = {
+		4567A7F726D36FF400F52152 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4509AFE126D36CC70092B9D6 /* iQiblaUITests.swift in Sources */,
+				4567A80026D36FF400F52152 /* iQiblaUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		4509AFAE26D36CC50092B9D6 /* PBXTargetDependency */ = {
+		4567A7D226D36FF200F52152 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 4509AFAA26D36CC50092B9D6 /* iQibla WatchKit App */;
-			targetProxy = 4509AFAD26D36CC50092B9D6 /* PBXContainerItemProxy */;
+			target = 4567A7CE26D36FF200F52152 /* iQibla WatchKit App */;
+			targetProxy = 4567A7D126D36FF200F52152 /* PBXContainerItemProxy */;
 		};
-		4509AFBA26D36CC60092B9D6 /* PBXTargetDependency */ = {
+		4567A7DE26D36FF300F52152 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 4509AFB626D36CC60092B9D6 /* iQibla WatchKit Extension */;
-			targetProxy = 4509AFB926D36CC60092B9D6 /* PBXContainerItemProxy */;
+			target = 4567A7DA26D36FF300F52152 /* iQibla WatchKit Extension */;
+			targetProxy = 4567A7DD26D36FF300F52152 /* PBXContainerItemProxy */;
 		};
-		4509AFD326D36CC70092B9D6 /* PBXTargetDependency */ = {
+		4567A7F226D36FF400F52152 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 4509AFB626D36CC60092B9D6 /* iQibla WatchKit Extension */;
-			targetProxy = 4509AFD226D36CC70092B9D6 /* PBXContainerItemProxy */;
+			target = 4567A7DA26D36FF300F52152 /* iQibla WatchKit Extension */;
+			targetProxy = 4567A7F126D36FF400F52152 /* PBXContainerItemProxy */;
 		};
-		4509AFDE26D36CC70092B9D6 /* PBXTargetDependency */ = {
+		4567A7FD26D36FF400F52152 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 4509AFAA26D36CC50092B9D6 /* iQibla WatchKit App */;
-			targetProxy = 4509AFDD26D36CC70092B9D6 /* PBXContainerItemProxy */;
+			target = 4567A7CE26D36FF200F52152 /* iQibla WatchKit App */;
+			targetProxy = 4567A7FC26D36FF400F52152 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		4509AFE326D36CC70092B9D6 /* Debug */ = {
+		4567A80226D36FF400F52152 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -495,7 +485,7 @@
 			};
 			name = Debug;
 		};
-		4509AFE426D36CC70092B9D6 /* Release */ = {
+		4567A80326D36FF400F52152 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -549,7 +539,7 @@
 			};
 			name = Release;
 		};
-		4509AFE626D36CC70092B9D6 /* Debug */ = {
+		4567A80526D36FF400F52152 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
@@ -563,7 +553,7 @@
 					"@executable_path/Frameworks",
 					"@executable_path/../../Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.wildangbudhi.iQibla.watchkitapp.watchkitextension;
+				PRODUCT_BUNDLE_IDENTIFIER = com.wildangbudhi.iQibla.iQibla.watchkitapp.watchkitextension;
 				PRODUCT_NAME = "${TARGET_NAME}";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
@@ -573,7 +563,7 @@
 			};
 			name = Debug;
 		};
-		4509AFE726D36CC70092B9D6 /* Release */ = {
+		4567A80626D36FF400F52152 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
@@ -587,7 +577,7 @@
 					"@executable_path/Frameworks",
 					"@executable_path/../../Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.wildangbudhi.iQibla.watchkitapp.watchkitextension;
+				PRODUCT_BUNDLE_IDENTIFIER = com.wildangbudhi.iQibla.iQibla.watchkitapp.watchkitextension;
 				PRODUCT_NAME = "${TARGET_NAME}";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
@@ -597,7 +587,7 @@
 			};
 			name = Release;
 		};
-		4509AFEA26D36CC70092B9D6 /* Debug */ = {
+		4567A80926D36FF400F52152 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -607,7 +597,7 @@
 				DEVELOPMENT_TEAM = 2V86NTJ62K;
 				IBSC_MODULE = iQibla_WatchKit_Extension;
 				INFOPLIST_FILE = "iQibla WatchKit App/Info.plist";
-				PRODUCT_BUNDLE_IDENTIFIER = com.wildangbudhi.iQibla.watchkitapp;
+				PRODUCT_BUNDLE_IDENTIFIER = com.wildangbudhi.iQibla.iQibla.watchkitapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
@@ -617,7 +607,7 @@
 			};
 			name = Debug;
 		};
-		4509AFEB26D36CC70092B9D6 /* Release */ = {
+		4567A80A26D36FF400F52152 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -627,7 +617,7 @@
 				DEVELOPMENT_TEAM = 2V86NTJ62K;
 				IBSC_MODULE = iQibla_WatchKit_Extension;
 				INFOPLIST_FILE = "iQibla WatchKit App/Info.plist";
-				PRODUCT_BUNDLE_IDENTIFIER = com.wildangbudhi.iQibla.watchkitapp;
+				PRODUCT_BUNDLE_IDENTIFIER = com.wildangbudhi.iQibla.iQibla.watchkitapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
@@ -637,33 +627,33 @@
 			};
 			name = Release;
 		};
-		4509AFEE26D36CC70092B9D6 /* Debug */ = {
+		4567A80D26D36FF400F52152 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 2V86NTJ62K;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.wildangbudhi.iQibla;
+				PRODUCT_BUNDLE_IDENTIFIER = com.wildangbudhi.iQibla.iQibla;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
-		4509AFEF26D36CC70092B9D6 /* Release */ = {
+		4567A80E26D36FF400F52152 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 2V86NTJ62K;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.wildangbudhi.iQibla;
+				PRODUCT_BUNDLE_IDENTIFIER = com.wildangbudhi.iQibla.iQibla;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
 		};
-		4509AFF126D36CC70092B9D6 /* Debug */ = {
+		4567A81026D36FF400F52152 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -676,7 +666,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.wildangbudhi.iQiblaTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.wildangbudhi.iQibla.iQiblaTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = watchos;
 				SWIFT_VERSION = 5.0;
@@ -686,7 +676,7 @@
 			};
 			name = Debug;
 		};
-		4509AFF226D36CC70092B9D6 /* Release */ = {
+		4567A81126D36FF400F52152 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -699,7 +689,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.wildangbudhi.iQiblaTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.wildangbudhi.iQibla.iQiblaTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = watchos;
 				SWIFT_VERSION = 5.0;
@@ -709,7 +699,7 @@
 			};
 			name = Release;
 		};
-		4509AFF426D36CC70092B9D6 /* Debug */ = {
+		4567A81326D36FF400F52152 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -720,7 +710,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.wildangbudhi.iQiblaUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.wildangbudhi.iQibla.iQiblaUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = watchos;
 				SWIFT_VERSION = 5.0;
@@ -730,7 +720,7 @@
 			};
 			name = Debug;
 		};
-		4509AFF526D36CC70092B9D6 /* Release */ = {
+		4567A81426D36FF400F52152 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -741,7 +731,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.wildangbudhi.iQiblaUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.wildangbudhi.iQibla.iQiblaUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = watchos;
 				SWIFT_VERSION = 5.0;
@@ -754,61 +744,61 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		4509AFA426D36CC50092B9D6 /* Build configuration list for PBXProject "iQibla" */ = {
+		4567A7C826D36FF200F52152 /* Build configuration list for PBXProject "iQibla" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4509AFE326D36CC70092B9D6 /* Debug */,
-				4509AFE426D36CC70092B9D6 /* Release */,
+				4567A80226D36FF400F52152 /* Debug */,
+				4567A80326D36FF400F52152 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4509AFE526D36CC70092B9D6 /* Build configuration list for PBXNativeTarget "iQibla WatchKit Extension" */ = {
+		4567A80426D36FF400F52152 /* Build configuration list for PBXNativeTarget "iQibla WatchKit Extension" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4509AFE626D36CC70092B9D6 /* Debug */,
-				4509AFE726D36CC70092B9D6 /* Release */,
+				4567A80526D36FF400F52152 /* Debug */,
+				4567A80626D36FF400F52152 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4509AFE926D36CC70092B9D6 /* Build configuration list for PBXNativeTarget "iQibla WatchKit App" */ = {
+		4567A80826D36FF400F52152 /* Build configuration list for PBXNativeTarget "iQibla WatchKit App" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4509AFEA26D36CC70092B9D6 /* Debug */,
-				4509AFEB26D36CC70092B9D6 /* Release */,
+				4567A80926D36FF400F52152 /* Debug */,
+				4567A80A26D36FF400F52152 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4509AFED26D36CC70092B9D6 /* Build configuration list for PBXNativeTarget "iQibla" */ = {
+		4567A80C26D36FF400F52152 /* Build configuration list for PBXNativeTarget "iQibla" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4509AFEE26D36CC70092B9D6 /* Debug */,
-				4509AFEF26D36CC70092B9D6 /* Release */,
+				4567A80D26D36FF400F52152 /* Debug */,
+				4567A80E26D36FF400F52152 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4509AFF026D36CC70092B9D6 /* Build configuration list for PBXNativeTarget "iQiblaTests" */ = {
+		4567A80F26D36FF400F52152 /* Build configuration list for PBXNativeTarget "iQiblaTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4509AFF126D36CC70092B9D6 /* Debug */,
-				4509AFF226D36CC70092B9D6 /* Release */,
+				4567A81026D36FF400F52152 /* Debug */,
+				4567A81126D36FF400F52152 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4509AFF326D36CC70092B9D6 /* Build configuration list for PBXNativeTarget "iQiblaUITests" */ = {
+		4567A81226D36FF400F52152 /* Build configuration list for PBXNativeTarget "iQiblaUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4509AFF426D36CC70092B9D6 /* Debug */,
-				4509AFF526D36CC70092B9D6 /* Release */,
+				4567A81326D36FF400F52152 /* Debug */,
+				4567A81426D36FF400F52152 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 4509AFA126D36CC50092B9D6 /* Project object */;
+	rootObject = 4567A7C526D36FF200F52152 /* Project object */;
 }
