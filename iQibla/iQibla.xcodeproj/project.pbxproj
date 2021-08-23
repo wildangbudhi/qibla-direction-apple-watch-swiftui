@@ -1,0 +1,814 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4509AFAC26D36CC50092B9D6 /* iQibla WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 4509AFAB26D36CC50092B9D6 /* iQibla WatchKit App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		4509AFB126D36CC60092B9D6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4509AFB026D36CC60092B9D6 /* Assets.xcassets */; };
+		4509AFB826D36CC60092B9D6 /* iQibla WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 4509AFB726D36CC60092B9D6 /* iQibla WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		4509AFBD26D36CC60092B9D6 /* iQiblaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4509AFBC26D36CC60092B9D6 /* iQiblaApp.swift */; };
+		4509AFBF26D36CC60092B9D6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4509AFBE26D36CC60092B9D6 /* ContentView.swift */; };
+		4509AFC126D36CC60092B9D6 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4509AFC026D36CC60092B9D6 /* NotificationController.swift */; };
+		4509AFC326D36CC60092B9D6 /* NotificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4509AFC226D36CC60092B9D6 /* NotificationView.swift */; };
+		4509AFC526D36CC60092B9D6 /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4509AFC426D36CC60092B9D6 /* ComplicationController.swift */; };
+		4509AFC726D36CC70092B9D6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4509AFC626D36CC70092B9D6 /* Assets.xcassets */; };
+		4509AFCA26D36CC70092B9D6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4509AFC926D36CC70092B9D6 /* Preview Assets.xcassets */; };
+		4509AFD626D36CC70092B9D6 /* iQiblaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4509AFD526D36CC70092B9D6 /* iQiblaTests.swift */; };
+		4509AFE126D36CC70092B9D6 /* iQiblaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4509AFE026D36CC70092B9D6 /* iQiblaUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4509AFAD26D36CC50092B9D6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4509AFA126D36CC50092B9D6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4509AFAA26D36CC50092B9D6;
+			remoteInfo = "iQibla WatchKit App";
+		};
+		4509AFB926D36CC60092B9D6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4509AFA126D36CC50092B9D6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4509AFB626D36CC60092B9D6;
+			remoteInfo = "iQibla WatchKit Extension";
+		};
+		4509AFD226D36CC70092B9D6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4509AFA126D36CC50092B9D6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4509AFB626D36CC60092B9D6;
+			remoteInfo = "iQibla WatchKit Extension";
+		};
+		4509AFDD26D36CC70092B9D6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4509AFA126D36CC50092B9D6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4509AFAA26D36CC50092B9D6;
+			remoteInfo = "iQibla WatchKit App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		4509AFE826D36CC70092B9D6 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				4509AFB826D36CC60092B9D6 /* iQibla WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4509AFEC26D36CC70092B9D6 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				4509AFAC26D36CC50092B9D6 /* iQibla WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		4509AFA726D36CC50092B9D6 /* iQibla.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iQibla.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4509AFAB26D36CC50092B9D6 /* iQibla WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iQibla WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4509AFB026D36CC60092B9D6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4509AFB226D36CC60092B9D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4509AFB726D36CC60092B9D6 /* iQibla WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "iQibla WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4509AFBC26D36CC60092B9D6 /* iQiblaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iQiblaApp.swift; sourceTree = "<group>"; };
+		4509AFBE26D36CC60092B9D6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		4509AFC026D36CC60092B9D6 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		4509AFC226D36CC60092B9D6 /* NotificationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationView.swift; sourceTree = "<group>"; };
+		4509AFC426D36CC60092B9D6 /* ComplicationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationController.swift; sourceTree = "<group>"; };
+		4509AFC626D36CC70092B9D6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4509AFC926D36CC70092B9D6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		4509AFCB26D36CC70092B9D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4509AFCC26D36CC70092B9D6 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		4509AFD126D36CC70092B9D6 /* iQiblaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iQiblaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4509AFD526D36CC70092B9D6 /* iQiblaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iQiblaTests.swift; sourceTree = "<group>"; };
+		4509AFD726D36CC70092B9D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4509AFDC26D36CC70092B9D6 /* iQiblaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iQiblaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4509AFE026D36CC70092B9D6 /* iQiblaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iQiblaUITests.swift; sourceTree = "<group>"; };
+		4509AFE226D36CC70092B9D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4509AFB426D36CC60092B9D6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4509AFCE26D36CC70092B9D6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4509AFD926D36CC70092B9D6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4509AFA026D36CC50092B9D6 = {
+			isa = PBXGroup;
+			children = (
+				4509AFAF26D36CC50092B9D6 /* iQibla WatchKit App */,
+				4509AFBB26D36CC60092B9D6 /* iQibla WatchKit Extension */,
+				4509AFD426D36CC70092B9D6 /* iQiblaTests */,
+				4509AFDF26D36CC70092B9D6 /* iQiblaUITests */,
+				4509AFA826D36CC50092B9D6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4509AFA826D36CC50092B9D6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4509AFA726D36CC50092B9D6 /* iQibla.app */,
+				4509AFAB26D36CC50092B9D6 /* iQibla WatchKit App.app */,
+				4509AFB726D36CC60092B9D6 /* iQibla WatchKit Extension.appex */,
+				4509AFD126D36CC70092B9D6 /* iQiblaTests.xctest */,
+				4509AFDC26D36CC70092B9D6 /* iQiblaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4509AFAF26D36CC50092B9D6 /* iQibla WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				4509AFB026D36CC60092B9D6 /* Assets.xcassets */,
+				4509AFB226D36CC60092B9D6 /* Info.plist */,
+			);
+			path = "iQibla WatchKit App";
+			sourceTree = "<group>";
+		};
+		4509AFBB26D36CC60092B9D6 /* iQibla WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				4509AFBC26D36CC60092B9D6 /* iQiblaApp.swift */,
+				4509AFBE26D36CC60092B9D6 /* ContentView.swift */,
+				4509AFC026D36CC60092B9D6 /* NotificationController.swift */,
+				4509AFC226D36CC60092B9D6 /* NotificationView.swift */,
+				4509AFC426D36CC60092B9D6 /* ComplicationController.swift */,
+				4509AFC626D36CC70092B9D6 /* Assets.xcassets */,
+				4509AFCB26D36CC70092B9D6 /* Info.plist */,
+				4509AFCC26D36CC70092B9D6 /* PushNotificationPayload.apns */,
+				4509AFC826D36CC70092B9D6 /* Preview Content */,
+			);
+			path = "iQibla WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		4509AFC826D36CC70092B9D6 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				4509AFC926D36CC70092B9D6 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		4509AFD426D36CC70092B9D6 /* iQiblaTests */ = {
+			isa = PBXGroup;
+			children = (
+				4509AFD526D36CC70092B9D6 /* iQiblaTests.swift */,
+				4509AFD726D36CC70092B9D6 /* Info.plist */,
+			);
+			path = iQiblaTests;
+			sourceTree = "<group>";
+		};
+		4509AFDF26D36CC70092B9D6 /* iQiblaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4509AFE026D36CC70092B9D6 /* iQiblaUITests.swift */,
+				4509AFE226D36CC70092B9D6 /* Info.plist */,
+			);
+			path = iQiblaUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4509AFA626D36CC50092B9D6 /* iQibla */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4509AFED26D36CC70092B9D6 /* Build configuration list for PBXNativeTarget "iQibla" */;
+			buildPhases = (
+				4509AFA526D36CC50092B9D6 /* Resources */,
+				4509AFEC26D36CC70092B9D6 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4509AFAE26D36CC50092B9D6 /* PBXTargetDependency */,
+			);
+			name = iQibla;
+			productName = iQibla;
+			productReference = 4509AFA726D36CC50092B9D6 /* iQibla.app */;
+			productType = "com.apple.product-type.application.watchapp2-container";
+		};
+		4509AFAA26D36CC50092B9D6 /* iQibla WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4509AFE926D36CC70092B9D6 /* Build configuration list for PBXNativeTarget "iQibla WatchKit App" */;
+			buildPhases = (
+				4509AFA926D36CC50092B9D6 /* Resources */,
+				4509AFE826D36CC70092B9D6 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4509AFBA26D36CC60092B9D6 /* PBXTargetDependency */,
+			);
+			name = "iQibla WatchKit App";
+			productName = "iQibla WatchKit App";
+			productReference = 4509AFAB26D36CC50092B9D6 /* iQibla WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		4509AFB626D36CC60092B9D6 /* iQibla WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4509AFE526D36CC70092B9D6 /* Build configuration list for PBXNativeTarget "iQibla WatchKit Extension" */;
+			buildPhases = (
+				4509AFB326D36CC60092B9D6 /* Sources */,
+				4509AFB426D36CC60092B9D6 /* Frameworks */,
+				4509AFB526D36CC60092B9D6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "iQibla WatchKit Extension";
+			productName = "iQibla WatchKit Extension";
+			productReference = 4509AFB726D36CC60092B9D6 /* iQibla WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+		4509AFD026D36CC70092B9D6 /* iQiblaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4509AFF026D36CC70092B9D6 /* Build configuration list for PBXNativeTarget "iQiblaTests" */;
+			buildPhases = (
+				4509AFCD26D36CC70092B9D6 /* Sources */,
+				4509AFCE26D36CC70092B9D6 /* Frameworks */,
+				4509AFCF26D36CC70092B9D6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4509AFD326D36CC70092B9D6 /* PBXTargetDependency */,
+			);
+			name = iQiblaTests;
+			productName = iQiblaTests;
+			productReference = 4509AFD126D36CC70092B9D6 /* iQiblaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4509AFDB26D36CC70092B9D6 /* iQiblaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4509AFF326D36CC70092B9D6 /* Build configuration list for PBXNativeTarget "iQiblaUITests" */;
+			buildPhases = (
+				4509AFD826D36CC70092B9D6 /* Sources */,
+				4509AFD926D36CC70092B9D6 /* Frameworks */,
+				4509AFDA26D36CC70092B9D6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4509AFDE26D36CC70092B9D6 /* PBXTargetDependency */,
+			);
+			name = iQiblaUITests;
+			productName = iQiblaUITests;
+			productReference = 4509AFDC26D36CC70092B9D6 /* iQiblaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4509AFA126D36CC50092B9D6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					4509AFA626D36CC50092B9D6 = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					4509AFAA26D36CC50092B9D6 = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					4509AFB626D36CC60092B9D6 = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					4509AFD026D36CC70092B9D6 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = 4509AFB626D36CC60092B9D6;
+					};
+					4509AFDB26D36CC70092B9D6 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = 4509AFAA26D36CC50092B9D6;
+					};
+				};
+			};
+			buildConfigurationList = 4509AFA426D36CC50092B9D6 /* Build configuration list for PBXProject "iQibla" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4509AFA026D36CC50092B9D6;
+			productRefGroup = 4509AFA826D36CC50092B9D6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4509AFA626D36CC50092B9D6 /* iQibla */,
+				4509AFAA26D36CC50092B9D6 /* iQibla WatchKit App */,
+				4509AFB626D36CC60092B9D6 /* iQibla WatchKit Extension */,
+				4509AFD026D36CC70092B9D6 /* iQiblaTests */,
+				4509AFDB26D36CC70092B9D6 /* iQiblaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4509AFA526D36CC50092B9D6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4509AFA926D36CC50092B9D6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4509AFB126D36CC60092B9D6 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4509AFB526D36CC60092B9D6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4509AFCA26D36CC70092B9D6 /* Preview Assets.xcassets in Resources */,
+				4509AFC726D36CC70092B9D6 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4509AFCF26D36CC70092B9D6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4509AFDA26D36CC70092B9D6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4509AFB326D36CC60092B9D6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4509AFC126D36CC60092B9D6 /* NotificationController.swift in Sources */,
+				4509AFBF26D36CC60092B9D6 /* ContentView.swift in Sources */,
+				4509AFC526D36CC60092B9D6 /* ComplicationController.swift in Sources */,
+				4509AFBD26D36CC60092B9D6 /* iQiblaApp.swift in Sources */,
+				4509AFC326D36CC60092B9D6 /* NotificationView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4509AFCD26D36CC70092B9D6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4509AFD626D36CC70092B9D6 /* iQiblaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4509AFD826D36CC70092B9D6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4509AFE126D36CC70092B9D6 /* iQiblaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4509AFAE26D36CC50092B9D6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4509AFAA26D36CC50092B9D6 /* iQibla WatchKit App */;
+			targetProxy = 4509AFAD26D36CC50092B9D6 /* PBXContainerItemProxy */;
+		};
+		4509AFBA26D36CC60092B9D6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4509AFB626D36CC60092B9D6 /* iQibla WatchKit Extension */;
+			targetProxy = 4509AFB926D36CC60092B9D6 /* PBXContainerItemProxy */;
+		};
+		4509AFD326D36CC70092B9D6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4509AFB626D36CC60092B9D6 /* iQibla WatchKit Extension */;
+			targetProxy = 4509AFD226D36CC70092B9D6 /* PBXContainerItemProxy */;
+		};
+		4509AFDE26D36CC70092B9D6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4509AFAA26D36CC50092B9D6 /* iQibla WatchKit App */;
+			targetProxy = 4509AFDD26D36CC70092B9D6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		4509AFE326D36CC70092B9D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4509AFE426D36CC70092B9D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4509AFE626D36CC70092B9D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"iQibla WatchKit Extension/Preview Content\"";
+				DEVELOPMENT_TEAM = 2V86NTJ62K;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "iQibla WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.wildangbudhi.iQibla.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 7.4;
+			};
+			name = Debug;
+		};
+		4509AFE726D36CC70092B9D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"iQibla WatchKit Extension/Preview Content\"";
+				DEVELOPMENT_TEAM = 2V86NTJ62K;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "iQibla WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.wildangbudhi.iQibla.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 7.4;
+			};
+			name = Release;
+		};
+		4509AFEA26D36CC70092B9D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2V86NTJ62K;
+				IBSC_MODULE = iQibla_WatchKit_Extension;
+				INFOPLIST_FILE = "iQibla WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wildangbudhi.iQibla.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 7.4;
+			};
+			name = Debug;
+		};
+		4509AFEB26D36CC70092B9D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2V86NTJ62K;
+				IBSC_MODULE = iQibla_WatchKit_Extension;
+				INFOPLIST_FILE = "iQibla WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wildangbudhi.iQibla.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 7.4;
+			};
+			name = Release;
+		};
+		4509AFEE26D36CC70092B9D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2V86NTJ62K;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.wildangbudhi.iQibla;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		4509AFEF26D36CC70092B9D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2V86NTJ62K;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.wildangbudhi.iQibla;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		4509AFF126D36CC70092B9D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2V86NTJ62K;
+				INFOPLIST_FILE = iQiblaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.wildangbudhi.iQiblaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iQibla WatchKit Extension.appex/iQibla WatchKit Extension";
+				WATCHOS_DEPLOYMENT_TARGET = 7.4;
+			};
+			name = Debug;
+		};
+		4509AFF226D36CC70092B9D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2V86NTJ62K;
+				INFOPLIST_FILE = iQiblaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.wildangbudhi.iQiblaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iQibla WatchKit Extension.appex/iQibla WatchKit Extension";
+				WATCHOS_DEPLOYMENT_TARGET = 7.4;
+			};
+			name = Release;
+		};
+		4509AFF426D36CC70092B9D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2V86NTJ62K;
+				INFOPLIST_FILE = iQiblaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.wildangbudhi.iQiblaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "iQibla WatchKit App";
+				WATCHOS_DEPLOYMENT_TARGET = 7.4;
+			};
+			name = Debug;
+		};
+		4509AFF526D36CC70092B9D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2V86NTJ62K;
+				INFOPLIST_FILE = iQiblaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.wildangbudhi.iQiblaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "iQibla WatchKit App";
+				WATCHOS_DEPLOYMENT_TARGET = 7.4;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4509AFA426D36CC50092B9D6 /* Build configuration list for PBXProject "iQibla" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4509AFE326D36CC70092B9D6 /* Debug */,
+				4509AFE426D36CC70092B9D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4509AFE526D36CC70092B9D6 /* Build configuration list for PBXNativeTarget "iQibla WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4509AFE626D36CC70092B9D6 /* Debug */,
+				4509AFE726D36CC70092B9D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4509AFE926D36CC70092B9D6 /* Build configuration list for PBXNativeTarget "iQibla WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4509AFEA26D36CC70092B9D6 /* Debug */,
+				4509AFEB26D36CC70092B9D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4509AFED26D36CC70092B9D6 /* Build configuration list for PBXNativeTarget "iQibla" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4509AFEE26D36CC70092B9D6 /* Debug */,
+				4509AFEF26D36CC70092B9D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4509AFF026D36CC70092B9D6 /* Build configuration list for PBXNativeTarget "iQiblaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4509AFF126D36CC70092B9D6 /* Debug */,
+				4509AFF226D36CC70092B9D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4509AFF326D36CC70092B9D6 /* Build configuration list for PBXNativeTarget "iQiblaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4509AFF426D36CC70092B9D6 /* Debug */,
+				4509AFF526D36CC70092B9D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4509AFA126D36CC50092B9D6 /* Project object */;
+}
