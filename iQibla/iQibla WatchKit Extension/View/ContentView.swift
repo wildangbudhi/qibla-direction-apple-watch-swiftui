@@ -13,7 +13,7 @@ struct ContentView: View {
     
     var body: some View {
         NavigationView{
-            QiblaDirection(kabahSize: 50.0, directionSize: 130.0)
+            QiblaDirection(kabahSize: 35.0, directionSize: 100.0)
                 .rotationEffect(Angle.degrees(qiblaVM.qiblaDirection))
                 .navigationTitle("iQibla")
                 .foregroundColor(.green)
